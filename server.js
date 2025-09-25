@@ -18,7 +18,7 @@ connectDB();
 
 
 app.get('/', (req, res) => {
-  res.send('Server is running, Express 1.0!');
+  res.send('Server is running, Express 1.1!');
 });
 
 // user Routes -- mongoose
